@@ -1,0 +1,40 @@
+.container{
+    width: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    border: 1px solid black;
+
+}
+.break{
+    width: 100%;
+}
+.box{
+    height: 4rem;
+    border: 1px solid grey;
+    flex:1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem ;
+}
+.resultBox{
+    height: 4rem;
+    font-size: 2rem;
+    flex: 1;
+    display: flex;
+    justify-content:right;
+    align-items: center;
+    padding-right: 5px;
+    background-color: blanchedalmond;
+}
+.op{
+    background-color: blueviolet;
+
+}
+.clear{
+    background-color: darkred;
+}
+.eq{
+    background-color: teal;
+}
